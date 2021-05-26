@@ -2,7 +2,7 @@
 Install pipdeptree 
 ```
 pip install pipdeptree
-````
+```
 
 # Resources  
 - https://stackoverflow.com/questions/3503879/assign-output-of-os-system-to-a-variable-and-prevent-it-from-being-displayed-on  
