@@ -1,5 +1,6 @@
 # Requirements  
-Install pipdeptree 
+This branch contains the script which uses pipdeptree module to check dependencies.  
+Install pipdeptree:  
 ```
 pip install pipdeptree
 ```
