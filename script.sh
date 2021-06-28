@@ -7,13 +7,15 @@ pip check
 if [[ $# -gt 0 ]]
 then
     name="dependency"
-    pip freeze > requirements.txt
+#     pip freeze > requirements.txt
+    conda install -e > requirements.txt
     # creating and entering venv
     python3 -m venv $name
     source $name/bin/activate
     # installing requirements
-    pip install -r requirements.txt
-    pip install $1
+#     pip install -r requirements.txt
+    conda install --file requirements.txt
+    conda install $1
     pip check
     deactivate
     # deleting the venv
