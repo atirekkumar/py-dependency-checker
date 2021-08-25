@@ -18,7 +18,7 @@ then
     pip3 freeze > requirements.txt
     pip3 install virtualenv
     # creating and entering venv
-    # venv cannot edit the python version being used. Hence to use a different python version, use virtualenv
+    # venv cannot edit the python version being used. Hence to use a different python version, use virtualenv or conda(preferred)
     python3 -m venv $name
     # conda create -n $name python=3.5
     source $name/bin/activate
